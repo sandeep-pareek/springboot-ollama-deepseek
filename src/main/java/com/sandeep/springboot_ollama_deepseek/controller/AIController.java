@@ -1,6 +1,7 @@
 package com.sandeep.springboot_ollama_deepseek.controller;
 
 
+import com.sandeep.springboot_ollama_deepseek.service.ChatAIService;
 import org.springframework.ai.chat.messages.UserMessage;
 import org.springframework.ai.chat.model.ChatResponse;
 import org.springframework.ai.chat.prompt.Prompt;
@@ -16,12 +17,14 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/deepSeek")
-public class AIcontroller {
+public class AIController {
 
     private final OllamaChatModel chatModel;
 
+
+
     @Autowired
-    public AIcontroller(OllamaChatModel chatModel) {
+    public AIController(OllamaChatModel chatModel) {
         this.chatModel = chatModel;
     }
 
