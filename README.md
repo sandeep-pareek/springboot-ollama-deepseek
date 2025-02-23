@@ -1,4 +1,4 @@
-# sprinboot-ollama-deepseek
+# springboot-ollama-deepseek
 This is Demo of SpringBoot and integration of Deepseek using Ollama
 
 # Need Ollama locally installed with deepseek-r1, in this case deepseek-r1:7b
