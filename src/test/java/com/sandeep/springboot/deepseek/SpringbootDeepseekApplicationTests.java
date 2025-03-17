@@ -1,10 +1,10 @@
-package com.sandeep.springboot_ollama_deepseek;
+package com.sandeep.springboot.deepseek;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringbootOllamaDeepseekApplicationTests {
+class SpringbootDeepseekApplicationTests {
 
 	@Test
 	void contextLoads() {
